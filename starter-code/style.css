@@ -23,6 +23,14 @@ div.card{
 	margin: 8%;
 }
 
+img{ height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	border-radius: 10px;
+	float: left;
+	margin: 8%;
+
+}
 
 .name{
 	color: #FF0000;
