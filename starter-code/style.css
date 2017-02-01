@@ -1,9 +1,11 @@
 h1 {
 	color: rgb(2,132,130);
+	font-family: 'Barrio', cursive, times;
 }
 
 h2 {
 	color: #FFD700;
+	font-family: 'Barrio', cursive, times;
 }
 
 
@@ -17,7 +19,8 @@ div.card{
 	height: 200px;
 	width: 150px;
 	border: 1px solid black;
-	background-color: yellow;
+	/*background-color: yellow;*/
+	background-image: url('backCard.jpg');
 	border-radius: 10px;
 	float: left;
 	margin: 8%;
@@ -41,14 +44,17 @@ h1, h2, p, footer{
 }
 
 nav{
-	background-color: #808080;
+	/*background-color: #808080;*/
+	background-color: #00ace6;
 }
 
 a{
 	background-color: #ffbf00;
+	/*background-color: #00ace6;*/
 	text-decoration: none;
 	color: white;
-	padding: 35px;
+	/*padding: 35px;*/
+	padding: 15px;
 	display: block;
 	float: left;	
 }
